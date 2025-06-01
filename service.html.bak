@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Computer courses</title>
+<link href="style.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+</head>
+<body>
+<!--logo-->
+<header>
+	<div class="logo">
+		<img src="logo.png" width="200px">
+	</div>
+<!--logo-->
+<!--Navigation-->
+<nav>
+	<div class="nav-links" id="navLinks">
+	<i class="fas fa-times" onclick="hideMenu()"></i>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="service.html">Service</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+	<i class="fas fa-bars" onclick="showMenu()"></i>
+</nav>
+</header>
+<!--Navigation-->
+
+<!--Homepage-->
+<h1 class="heading">Services</h1>
+<p class="about">Here are the computer courses we offer to our students.</p>
+	
+<div class="row">
+	<div class="container jpeg">
+		<div class="col-6 jpg">
+			<img src="l1.jpeg" class="img-responsive">
+			<h2 class="praise">Office Management</h2>
+			<p class="curse">🗓️ Total Duration – 3 Months of Expert Training</p>
+			<a href="contactus.html" class="enroll-btn">Enroll Now!</a>
+			
+		</div>
+			<div class="col-6 jpg">
+			<img src="l2.jpeg" class="img-responsive">
+			<h2 class="praise">Graphic Designing</h2>
+			<p class="curse">🎓 Complete in Just 6 Months</p>
+			<a href="contactus.html" class="enroll-btn">Enroll Now!</a>
+			
+		</div>
+	</div>
+</div>
+<br>
+<div class="row">
+	<div class="container jpeg">
+		<div class="col-6 jpg">
+			<img src="l3.jpeg" class="img-responsive">
+			<h2 class="praise">Product Selling on Marketplace</h2>
+			<p class="curse">⏳ Program Length: 2 Months</p>
+			<a href="contactus.html" class="enroll-btn">Enroll Now!</a>
+			
+		</div>
+			<div class="col-6 jpg">
+			<img src="l4.jpeg" class="img-responsive">
+			<h2 class="praise">Html & Css</h2>
+			<p class="curse">📅 Duration: 5-Month Comprehensive Program</p>
+			<a href="contactus.html" class="enroll-btn">Enroll Now!</a>
+			
+		</div>
+	</div>
+</div>
+<br><br><br>
+<!--Homepage-->
+
+<!--footer-->
+<footer>
+	<h1>You can contact us with:</h1>
+	<h3>Phone Number: 0308-7614517, 0318-6551972</h3>
+	<h3>Address:  Allama Iqbal Town Basti Mian Sahib, Sadiq Abad
+
+</footer>
+
+<div class="copyright">
+	<p>Copyright &copy; 2025 | MubeenAbdullah</p>
+	</div>
+
+
+
+
+
+
+<!--footer-->
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+	navLinks.style.left = "0";
+}
+
+function hideMenu() {
+	navLinks.style.left = "-200px";
+}
+
+</script>
+
+
+
+</body>
+</html>

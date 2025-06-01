@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Computer courses</title>
+<link href="style.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+</head>
+<body>
+<!--logo-->
+<header>
+	<div class="logo">
+		<img src="logo.png" width="200px">
+	</div>
+<!--logo-->
+<!--Navigation-->
+<nav>
+	<div class="nav-links" id="navLinks">
+	<i class="fas fa-times" onclick="hideMenu()"></i>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="service.html">Service</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+	<i class="fas fa-bars" onclick="showMenu()"></i>
+</nav>
+</header>
+<!--Navigation-->
+
+<!--Homepage-->
+<h1 class="heading">About Us</h1>
+<p class="about">About Us – Umer Computer & Science Academy</p>
+
+
+	
+  <div class="map-container">
+        <!-- Use either an image or Google Map iframe -->
+        <!-- Example for image -->
+        <img src="location.png" alt="Map Location">
+
+        <!-- OR Example for embedded Google Map -->
+        <!-- 
+        <iframe 
+            src="https://www.google.com/maps/embed?..." 
+            allowfullscreen="" 
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        -->
+  </div>
+
+	
+<div class="row">
+	<div class="container">
+		
+		<div class="col-12">
+			
+			<p class="paragraph">📍 Location: Mian Ki Basti, Sadiqabad
+								We are excited to announce the opening of our academy, dedicated to providing quality education and computer courses. Whether you’re interested in learning basic to advanced computer skills, we’ve got you covered — and yes, a certificate will be awarded upon course completion!
+								🎓 We also offer academic support for students from Class 1 to Class 10, including special writing and spelling improvement sessions for young learners.</p>
+		<ul class="order">
+			<li class="paragraph">✅ Peaceful environment</li>
+			<li class="paragraph">✅ No load shedding</li>
+			<li class="paragraph">✅ Limited seats available – Admissions are now open!</li>
+		</ul>
+			<p class="paragraph">📞 Contact us today or visit the academy in person. We look forward to helping you grow and succeed!</p>
+		</div>
+	</div>
+</div>
+
+<div>
+	<p class="paragraph"> Welcome to Umer Computer & Science Academy, your trusted place for quality education and digital skills development. We are committed to empowering students of all ages with the knowledge they need to succeed in both academics and the digital world.<br>
+
+✅ What We Offer:<br>
+🎓 Academic Coaching for students from Grade 1 to 10<br>
+🧠 Special Summer Programs to improve spelling, writing skills, and overall learning<br>
+💼 Professional Computer Courses including:<br>
+Office Management<br>
+Web Development<br>
+Graphic Designing<br>
+Marketplace Product Selling<br>
+🎖️ We also provide official certificates after course completion to help you advance in your career or education.<br>
+Our mission is to provide affordable, practical, and high-quality training in a peaceful and supportive environment.<br>
+Come join us — limited seats available!</p>
+
+
+
+</div>
+
+<!--Homepage-->
+
+<!--footer-->
+<footer>
+	<h1>You can contact us with:</h1>
+	<h3>Phone Number: 0308-7614517, 0318-6551972</h3>
+	<h3>Address:  Allama Iqbal Town Basti Mian Sahib, Sadiq Abad
+
+</footer>
+
+<div class="copyright">
+	<p>Copyright &copy; 2025 | MubeenAbdullah</p>
+	</div>
+
+
+
+
+
+
+<!--footer-->
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+	navLinks.style.left = "0";
+}
+
+function hideMenu() {
+	navLinks.style.left = "-200px";
+}
+
+</script>
+
+
+
+</body>
+</html>
